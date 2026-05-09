@@ -3,7 +3,7 @@ locale = 'en-us'
 title = 'My Resource Hub'
 theme = 'PaperMod'
 
-canonifyURLs = false
+canonifyURLs = true
 relativeURLs = false
 
 [params]
