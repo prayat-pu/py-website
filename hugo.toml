@@ -26,8 +26,8 @@ theme = 'PaperMod'
         imageWidth = 120
         imageHeight = 120
         buttons = [
-            { name = 'Blog', url = '/posts/' },
-            { name = 'Resources', url = '/resources/' }
+            { name = 'Blog', url = 'posts/' },
+            { name = 'Resources', url = 'resources/' }
         ]
 
     [[params.socialIcons]]
@@ -40,21 +40,21 @@ theme = 'PaperMod'
 [menu]
     [[menu.main]]
         name = 'Home'
-        url = '/'
+        pageRef = '/'
         weight = 10
     [[menu.main]]
         name = 'Posts'
-        url = '/posts/'
+        pageRef = '/posts'
         weight = 20
     [[menu.main]]
         name = 'Resources'
-        url = '/resources/'
+        pageRef = '/resources'
         weight = 30
     [[menu.main]]
         name = 'Resume'
-        url = '/resume/'
+        pageRef = '/resume'
         weight = 40
     [[menu.main]]
         name = 'About'
-        url = '/about/'
+        pageRef = '/about'
         weight = 50
