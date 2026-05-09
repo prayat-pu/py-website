@@ -1,6 +1,6 @@
 ---
 title: "First Post: Hello World!"
-date: 2026-05-10T10:00:00Z
+date: 2026-05-01T10:00:00Z
 draft: false
 tags: ["welcome", "hugo"]
 categories: ["personal"]

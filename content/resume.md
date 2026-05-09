@@ -1,6 +1,6 @@
 ---
 title: "The Curator"
-date: 2026-05-10T00:00:00Z
+date: 2026-05-01T00:00:00Z
 draft: false
 ---
 
