@@ -44,21 +44,21 @@ relativeURLs = false
 [menu]
     [[menu.main]]
         name = 'Home'
-        pageRef = '/'
+        pageRef = '/py-website/'
         weight = 10
     [[menu.main]]
         name = 'Posts'
-        pageRef = '/posts'
+        pageRef = '/py-website/posts'
         weight = 20
     [[menu.main]]
         name = 'Resources'
-        pageRef = '/resources'
+        pageRef = '/py-website/resources'
         weight = 30
     [[menu.main]]
         name = 'Resume'
-        pageRef = '/resume'
+        pageRef = '/py-website/resume'
         weight = 40
     [[menu.main]]
         name = 'About'
-        pageRef = '/about'
+        pageRef = '/py-website/about'
         weight = 50
