@@ -1,0 +1,60 @@
+baseURL = 'https://username.github.io/'
+locale = 'en-us'
+title = 'My Personal Website'
+theme = 'PaperMod'
+
+[params]
+    env = 'production'
+    title = 'My Personal Website'
+    description = 'A personal website built with Hugo and PaperMod'
+    author = 'Your Name'
+    
+    # PaperMod specific settings
+    ShowReadingTime = true
+    ShowShareButtons = true
+    ShowPostNavLinks = true
+    ShowBreadCrumbs = true
+    ShowCodeCopyButtons = true
+    ShowToc = true
+    
+    [params.profileMode]
+        enabled = true
+        title = 'Welcome!'
+        subtitle = 'Developer, Blogger, and Tech Enthusiast.'
+        imageUrl = 'https://via.placeholder.com/150'
+        imageTitle = 'my image'
+        imageWidth = 120
+        imageHeight = 120
+        buttons = [
+            { name = 'Blog', url = '/posts/' },
+            { name = 'Resources', url = '/resources/' }
+        ]
+
+    [[params.socialIcons]]
+        name = 'github'
+        url = 'https://github.com/'
+    [[params.socialIcons]]
+        name = 'linkedin'
+        url = 'https://linkedin.com/'
+
+[menu]
+    [[menu.main]]
+        name = 'Home'
+        url = '/'
+        weight = 10
+    [[menu.main]]
+        name = 'Posts'
+        url = '/posts/'
+        weight = 20
+    [[menu.main]]
+        name = 'Resources'
+        url = '/resources/'
+        weight = 30
+    [[menu.main]]
+        name = 'Resume'
+        url = '/resume/'
+        weight = 40
+    [[menu.main]]
+        name = 'About'
+        url = '/about/'
+        weight = 50
