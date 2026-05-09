@@ -3,7 +3,8 @@ locale = 'en-us'
 title = 'My Resource Hub'
 theme = 'PaperMod'
 
-canonifyURLs = false
+# Canonify ensures all links are absolute, fixing subpath issues on GitHub Pages
+canonifyURLs = true
 relativeURLs = false
 
 [params]
@@ -29,8 +30,8 @@ relativeURLs = false
         imageWidth = 120
         imageHeight = 120
         buttons = [
-            { name = 'Blog', url = '/py-website/posts/' },
-            { name = 'Resources', url = '/py-website/resources/' }
+            { name = 'Blog', url = 'posts/' },
+            { name = 'Resources', url = 'resources/' }
         ]
 
     [[params.socialIcons]]
@@ -43,21 +44,21 @@ relativeURLs = false
 [menu]
     [[menu.main]]
         name = 'Home'
-        url = '/py-website/'
+        pageRef = '/'
         weight = 10
     [[menu.main]]
         name = 'Posts'
-        url = '/py-website/posts/'
+        pageRef = '/posts'
         weight = 20
     [[menu.main]]
         name = 'Resources'
-        url = '/py-website/resources/'
+        pageRef = '/resources'
         weight = 30
     [[menu.main]]
         name = 'Resume'
-        url = '/py-website/resume/'
+        pageRef = '/resume'
         weight = 40
     [[menu.main]]
         name = 'About'
-        url = '/py-website/about/'
+        pageRef = '/about'
         weight = 50
