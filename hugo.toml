@@ -4,12 +4,12 @@ title = 'My Resource Hub'
 theme = 'PaperMod'
 
 canonifyURLs = false
-relativeURLs = true
+relativeURLs = false
 
 [params]
     env = 'production'
     title = 'My Resource Hub'
-    description = 'A personal website built with Hugo and PaperMod'
+    description = 'A personal Resource Hub built with Hugo and PaperMod'
     author = 'Your Name'
     
     # PaperMod specific settings
@@ -29,8 +29,8 @@ relativeURLs = true
         imageWidth = 120
         imageHeight = 120
         buttons = [
-            { name = 'Blog', url = 'posts/' },
-            { name = 'Resources', url = 'resources/' }
+            { name = 'Blog', url = '/py-website/posts/' },
+            { name = 'Resources', url = '/py-website/resources/' }
         ]
 
     [[params.socialIcons]]
@@ -43,21 +43,21 @@ relativeURLs = true
 [menu]
     [[menu.main]]
         name = 'Home'
-        pageRef = '/'
+        url = '/py-website/'
         weight = 10
     [[menu.main]]
         name = 'Posts'
-        pageRef = '/posts'
+        url = '/py-website/posts/'
         weight = 20
     [[menu.main]]
         name = 'Resources'
-        pageRef = '/resources'
+        url = '/py-website/resources/'
         weight = 30
     [[menu.main]]
         name = 'Resume'
-        pageRef = '/resume'
+        url = '/py-website/resume/'
         weight = 40
     [[menu.main]]
         name = 'About'
-        pageRef = '/about'
+        url = '/py-website/about/'
         weight = 50
