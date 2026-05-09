@@ -3,12 +3,12 @@ locale = 'en-us'
 title = 'My Resource Hub'
 theme = 'PaperMod'
 
-# canonifyURLs = true
-# relativeURLs = true
+canonifyURLs = false
+relativeURLs = false
 
 [params]
     env = 'production'
-    title = 'My Personal Website'
+    title = 'My Resource Hub'
     description = 'A personal website built with Hugo and PaperMod'
     author = 'Your Name'
     
