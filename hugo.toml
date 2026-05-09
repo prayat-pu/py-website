@@ -1,7 +1,10 @@
-baseURL = 'https://username.github.io/'
+baseURL = 'https://prayat-pu.github.io/py-website/'
 locale = 'en-us'
-title = 'My Personal Website'
+title = 'My Resource Hub'
 theme = 'PaperMod'
+
+canonifyURLs = true
+relativeURLs = true
 
 [params]
     env = 'production'
