@@ -3,62 +3,39 @@ locale = 'en-us'
 title = 'My Resource Hub'
 theme = 'PaperMod'
 
-# Canonify ensures all links are absolute, fixing subpath issues on GitHub Pages
-canonifyURLs = true
+# Absolute root paths for assets and links
+canonifyURLs = false
 relativeURLs = false
 
 [params]
     env = 'production'
     title = 'My Resource Hub'
-    description = 'A personal Resource Hub built with Hugo and PaperMod'
-    author = 'Your Name'
-    
-    # PaperMod specific settings
-    ShowReadingTime = true
-    ShowShareButtons = true
-    ShowPostNavLinks = true
-    ShowBreadCrumbs = true
-    ShowCodeCopyButtons = true
-    ShowToc = true
     
     [params.profileMode]
         enabled = true
-        title = 'Welcome!'
-        subtitle = 'Developer, Blogger, and Tech Enthusiast.'
-        imageUrl = 'https://via.placeholder.com/150'
-        imageTitle = 'my image'
-        imageWidth = 120
-        imageHeight = 120
         buttons = [
-            { name = 'Blog', url = 'posts/' },
-            { name = 'Resources', url = 'resources/' }
+            { name = 'Blog', url = '/posts/' },
+            { name = 'Resources', url = '/resources/' }
         ]
-
-    [[params.socialIcons]]
-        name = 'github'
-        url = 'https://github.com/'
-    [[params.socialIcons]]
-        name = 'linkedin'
-        url = 'https://linkedin.com/'
 
 [menu]
     [[menu.main]]
         name = 'Home'
-        pageRef = '/py-website/'
+        url = '/'
         weight = 10
     [[menu.main]]
         name = 'Posts'
-        pageRef = '/py-website/posts'
+        url = '/posts/'
         weight = 20
     [[menu.main]]
         name = 'Resources'
-        pageRef = '/py-website/resources'
+        url = '/resources/'
         weight = 30
     [[menu.main]]
         name = 'Resume'
-        pageRef = '/py-website/resume'
+        url = '/resume/'
         weight = 40
     [[menu.main]]
         name = 'About'
-        pageRef = '/py-website/about'
+        url = '/about/'
         weight = 50
