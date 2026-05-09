@@ -43,21 +43,21 @@ relativeURLs = false
 [menu]
     [[menu.main]]
         name = 'Home'
-        url = '/'
+        url = '/py-website/'
         weight = 10
     [[menu.main]]
         name = 'Posts'
-        url = '/posts/'
+        url = '/py-website/posts/'
         weight = 20
     [[menu.main]]
         name = 'Resources'
-        url = '/resources/'
+        url = '/py-website/resources/'
         weight = 30
     [[menu.main]]
         name = 'Resume'
-        url = '/resume/'
+        url = '/py-website/resume/'
         weight = 40
     [[menu.main]]
         name = 'About'
-        url = '/about/'
+        url = '/py-website/about/'
         weight = 50
