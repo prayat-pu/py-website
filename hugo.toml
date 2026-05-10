@@ -1,17 +1,16 @@
 baseURL = 'https://prayat-pu.github.io/py-website/'
 locale = 'en-us'
-title = 'Prahyat Puangjaktha | Resource Hub'
+title = 'Prahyat Puangjaktha | Hub'
 theme = 'PaperMod'
 
 # Absolute root paths for assets and links
-# canonifyURLs and relativeURLs are false to let Hugo handle the subpath automatically.
 canonifyURLs = false
 relativeURLs = false
 
 [params]
     env = 'production'
     title = 'Prahyat Puangjaktha'
-    description = 'PhD Student in Remote Sensing & Data Science | Sharing resources for Environmental Sustainability and Disaster management.'
+    description = 'PhD Student in Remote Sensing & Data Science | Sharing resources and research publications.'
     author = 'Prahyat Puangjaktha'
     
     # PaperMod specific settings
@@ -31,8 +30,9 @@ relativeURLs = false
         imageWidth = 150
         imageHeight = 150
         buttons = [
-            { name = 'Blog', url = '/py-website/posts/' },
-            { name = 'Resources', url = '/py-website/resources/' }
+            { name = 'Publications', url = '/py-website/publications/' },
+            { name = 'Resources', url = '/py-website/resources/' },
+            { name = 'Blog', url = '/py-website/posts/' }
         ]
 
     [[params.socialIcons]]
@@ -51,18 +51,22 @@ relativeURLs = false
         url = '/'
         weight = 10
     [[menu.main]]
-        name = 'Posts'
-        url = 'posts/'
+        name = 'Publications'
+        url = '/publications/'
         weight = 20
     [[menu.main]]
         name = 'Resources'
-        url = 'resources/'
+        url = '/resources/'
         weight = 30
     [[menu.main]]
-        name = 'Resume'
-        url = 'resume/'
+        name = 'Posts'
+        url = '/posts/'
         weight = 40
     [[menu.main]]
-        name = 'About'
-        url = 'about/'
+        name = 'Resume'
+        url = '/resume/'
         weight = 50
+    [[menu.main]]
+        name = 'About'
+        url = '/about/'
+        weight = 60
