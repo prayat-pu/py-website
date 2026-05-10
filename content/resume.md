@@ -7,6 +7,8 @@ draft: false
 # Prahyat Puangjaktha
 PhD Student | Remote Sensing & Data Science
 
+![Prahyat Puangjaktha](/py-website/profile_img/cmu_img.jpg)
+
 ## Summary
 Experienced Data Scientist with 4 years of specialized experience in data engineering, data science, deep learning, and machine learning. Proven expertise in NLP, predictive analytics, and computer vision. Skilled in working with satellite imagery and remote sensing data.
 

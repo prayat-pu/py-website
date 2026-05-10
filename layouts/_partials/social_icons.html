@@ -1,10 +1,9 @@
 <div class="social-icons" {{ with .align}}align="{{.}}" {{- end }}>
     {{- range site.Params.socialIcons }}
     {{- if eq .name "email" }}
-    <a href="javascript:void(0)" onclick="toggleEmail(this, '{{ trim .url "mailto:" }}')"
-        title="Click to show email" class="email-toggle">
+    <a href="javascript:void(0)" onclick="promptEmail('{{ trim .url "mailto:" }}')"
+        title="Click to copy email" class="email-toggle">
         {{ partial "svg.html" . }}
-        <span class="email-text" style="display:none; margin-left: 8px; vertical-align: middle; font-size: 0.9em; font-weight: 500;"></span>
     </a>
     {{- else }}
     <a href="{{ trim .url " " | safeURL }}" target="_blank" rel="noopener noreferrer me"
@@ -16,13 +15,7 @@
 </div>
 
 <script>
-function toggleEmail(element, email) {
-    const textSpan = element.querySelector('.email-text');
-    if (textSpan.style.display === 'none') {
-        textSpan.textContent = email;
-        textSpan.style.display = 'inline';
-    } else {
-        textSpan.style.display = 'none';
-    }
+function promptEmail(email) {
+    window.prompt("My email address is:", email);
 }
 </script>
