@@ -1,0 +1,23 @@
+.email-toggle {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none !important;
+}
+
+.email-text {
+    color: var(--secondary);
+    transition: all 0.3s ease;
+}
+
+.dark .email-text {
+    color: var(--primary);
+}
+
+.social-icons a:hover .email-text {
+    color: var(--primary);
+}
+
+.footer .social-icons {
+    margin: 10px 0;
+}
