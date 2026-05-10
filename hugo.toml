@@ -1,6 +1,6 @@
 baseURL = 'https://prayat-pu.github.io/py-website/'
 locale = 'en-us'
-title = 'My Resource Hub'
+title = 'Prahyat Puangjaktha | Resource Hub'
 theme = 'PaperMod'
 
 # Absolute root paths for assets and links
@@ -9,33 +9,59 @@ relativeURLs = false
 
 [params]
     env = 'production'
-    title = 'My Resource Hub'
+    title = 'Prahyat Puangjaktha'
+    description = 'PhD Student in Remote Sensing & Data Science | Sharing resources for Environmental Sustainability and Disaster management.'
+    author = 'Prahyat Puangjaktha'
+    
+    # PaperMod specific settings
+    ShowReadingTime = true
+    ShowShareButtons = true
+    ShowPostNavLinks = true
+    ShowBreadCrumbs = true
+    ShowCodeCopyButtons = true
+    ShowToc = true
     
     [params.profileMode]
         enabled = true
+        title = 'Prahyat Puangjaktha'
+        subtitle = 'PhD Student @ Mahidol University | Remote Sensing & Data Science Enthusiast.'
+        imageUrl = 'profile_img/cmu_img.jpg'
+        imageTitle = 'Prahyat Puangjaktha'
+        imageWidth = 150
+        imageHeight = 150
         buttons = [
-            { name = 'Blog', url = '/posts/' },
-            { name = 'Resources', url = '/resources/' }
+            { name = 'Blog', url = '/py-website/posts/' },
+            { name = 'Resources', url = '/py-website/resources/' }
         ]
+
+    [[params.socialIcons]]
+        name = 'github'
+        url = 'https://github.com/prayat-pu'
+    [[params.socialIcons]]
+        name = 'linkedin'
+        url = 'https://www.linkedin.com/in/prahyat-puangjaktha-039135185'
+    [[params.socialIcons]]
+        name = 'email'
+        url = 'mailto:prahyat.puangjaktha@gmail.com'
 
 [menu]
     [[menu.main]]
         name = 'Home'
-        url = '/'
+        url = '/py-website/'
         weight = 10
     [[menu.main]]
         name = 'Posts'
-        url = '/posts/'
+        url = '/py-website/posts/'
         weight = 20
     [[menu.main]]
         name = 'Resources'
-        url = '/resources/'
+        url = '/py-website/resources/'
         weight = 30
     [[menu.main]]
         name = 'Resume'
-        url = '/resume/'
+        url = '/py-website/resume/'
         weight = 40
     [[menu.main]]
         name = 'About'
-        url = '/about/'
+        url = '/py-website/about/'
         weight = 50

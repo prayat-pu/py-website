@@ -1,17 +1,22 @@
 ---
-title: "About the Resource Hub"
+title: "About Me"
 date: 2026-05-01T00:00:00Z
 draft: false
 ---
 
-Welcome to my personal Resource Hub. This is a curated space where I share tools, guides, and materials that I find valuable for developers and tech enthusiasts.
+I am a PhD Student at Mahidol University, Thailand, passionate about using data to understand and solve environmental challenges. My work focuses on the intersection of **Environmental Science** and **Data Science**, specifically applying **Artificial Intelligence** and **Remote Sensing** to address environmental issues and disasters.
 
-### Why this hub?
-My goal is to centralize high-quality resources that help others learn, build, and automate tasks efficiently.
+With a background in computer science and statistics, I have over 4 years of experience in data engineering, deep learning, and machine learning. I am driven to produce research that translates into actionable insights for environmental management.
 
-### What you'll find here
-- **Curated Links:** Hand-picked articles and tools.
-- **Cheat Sheets:** Quick references for various technologies.
-- **Templates:** Boilerplate code and configuration files.
+### Academic Background
+- **PhD Student** in Remote Sensing & Data Science, Mahidol University (Aug 2025 - Present)
+- **Master of Science** in Computer Science (Data Science), Mahidol University (2021 - 2023)
+- **Bachelor of Science** in Computer Science, Chiang Mai University (2016 - 2020)
 
-Feel free to browse and share!
+### Focus Areas
+- Remote Sensing & Satellite Imagery Analysis
+- Natural Language Processing (NLP)
+- Computer Vision (Face Detection, YOLO)
+- Predictive Analytics & Disaster Management
+
+I am always open to connecting with fellow researchers, data scientists, and environmental professionals.
