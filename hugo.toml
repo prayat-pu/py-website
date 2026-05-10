@@ -4,6 +4,7 @@ title = 'Prahyat Puangjaktha | Resource Hub'
 theme = 'PaperMod'
 
 # Absolute root paths for assets and links
+# canonifyURLs and relativeURLs are false to let Hugo handle the subpath automatically.
 canonifyURLs = false
 relativeURLs = false
 
@@ -47,21 +48,21 @@ relativeURLs = false
 [menu]
     [[menu.main]]
         name = 'Home'
-        url = '/py-website/'
+        url = '/'
         weight = 10
     [[menu.main]]
         name = 'Posts'
-        url = '/py-website/posts/'
+        url = 'posts/'
         weight = 20
     [[menu.main]]
         name = 'Resources'
-        url = '/py-website/resources/'
+        url = 'resources/'
         weight = 30
     [[menu.main]]
         name = 'Resume'
-        url = '/py-website/resume/'
+        url = 'resume/'
         weight = 40
     [[menu.main]]
         name = 'About'
-        url = '/py-website/about/'
+        url = 'about/'
         weight = 50
