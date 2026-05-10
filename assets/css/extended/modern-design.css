@@ -1,0 +1,66 @@
+/* Global modern touches */
+:root {
+    --radius: 12px;
+}
+
+/* Resume Page Modern Layout */
+.post-single .resume-header {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 40px;
+    border-bottom: 2px solid var(--border);
+    padding-bottom: 30px;
+}
+
+.resume-header-info h1 {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.resume-header-info p {
+    margin: 5px 0 0 0;
+    font-size: 1.2rem;
+    color: var(--secondary);
+}
+
+.resume-profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid var(--tertiary);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Section styling for Resume */
+.post-content h2 {
+    color: var(--primary);
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 5px;
+    margin-top: 35px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1.3rem;
+}
+
+.post-content h3 {
+    margin-bottom: 5px;
+    color: var(--primary);
+}
+
+/* Modern Card-like feel for entries */
+.post-content p {
+    line-height: 1.6;
+}
+
+@media screen and (max-width: 600px) {
+    .post-single .resume-header {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+}

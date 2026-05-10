@@ -4,10 +4,13 @@ date: 2026-05-01T00:00:00Z
 draft: false
 ---
 
-# Prahyat Puangjaktha
-PhD Student | Remote Sensing & Data Science
-
-![Prahyat Puangjaktha](/py-website/profile_img/cmu_img.jpg)
+<div class="resume-header">
+    <img src="/py-website/profile_img/cmu_img.jpg" alt="Prahyat Puangjaktha" class="resume-profile-img">
+    <div class="resume-header-info">
+        <h1>Prahyat Puangjaktha</h1>
+        <p>PhD Student | Remote Sensing & Data Science</p>
+    </div>
+</div>
 
 ## Summary
 Experienced Data Scientist with 4 years of specialized experience in data engineering, data science, deep learning, and machine learning. Proven expertise in NLP, predictive analytics, and computer vision. Skilled in working with satellite imagery and remote sensing data.
