@@ -1,8 +1,8 @@
 <div class="social-icons" {{ with .align}}align="{{.}}" {{- end }}>
     {{- range site.Params.socialIcons }}
     {{- if eq .name "email" }}
-    <a href="javascript:void(0)" onclick="promptEmail('{{ trim .url "mailto:" }}')"
-        title="Click to copy email" class="email-toggle">
+    <a href="javascript:void(0)" onclick="showEmail('{{ replace .url "mailto:" "" }}')"
+        title="View email address" class="email-toggle">
         {{ partial "svg.html" . }}
     </a>
     {{- else }}
@@ -15,7 +15,7 @@
 </div>
 
 <script>
-function promptEmail(email) {
-    window.prompt("My email address is:", email);
+function showEmail(email) {
+    alert("My email address is: " + email);
 }
 </script>
